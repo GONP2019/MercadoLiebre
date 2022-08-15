@@ -983,6 +983,7 @@ button{
     .main-header .logo_barra{
         display: flex;
         flex-direction: row;
+        justify-content: flex-start;
         flex-wrap: wrap;
     }
 
