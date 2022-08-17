@@ -4,45 +4,13 @@
 
 
 /*--------------------------------------------------------------------------------*/
-
-/* ----------------- GENERAL -----------------------------------------*/
+/* ----------------- GENERAL -----------------------------------------------------*/
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto';
-    /*font-size: 12px;*/
 }
-
-/*/
-p{
-    font-family: 'Roboto';
-    font-size: 12px;
-}*/
-
-
-body h1 {
-    font-size: 24px;
-}
-
-/*
-.Precio{
-    font-size: 18px;
-    width: 30%;
-}
-
-.Descuento{
-    font-size: 16px;
-    color: green;
-    width: 70%;
-}
-*/
-/*
-.Producto{
-    font-size: 16px;
-    display: none;
-}*/
-
 
 /*--------------------------------------------------------------------------------*/
 /* ----------------- HEADER -----------------------------------------------------*/
@@ -50,102 +18,8 @@ header {
     background-color: #EAC926;
 }
 
-/*
-.primer_li_opt a{
-    padding: 5px;
-}
-
-.segundo_li_opt  a {
-    padding: 5px;
-    
-}*/
-/*
-.primer_li_opt {
-   margin-left: 50px;
-}
-
-.segundo_li_opt  {
-    margin-right: 50px;
-}
-
-.barranavegacion {
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
-}*/
-
-/*
-.main-header{
-    position: fixed;
-    top:0;
-    z-index: 100;
-}*/
-
-/*
-.logo_barra{
-    display: flex;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    margin: 10px;
-}
-
-.logoml{
-    width: 33.3%; 
-}*/
-
-/*
-.logoml img{
-    width: 30vw;
-    height: 5vw;
-}
-*/
-
-
-/*
-.compracuota {
-    display: flex;
-    justify-content: flex-end;
-    width: 33.3%;
-}
-
-.compracuota p {
-    text-align: center;
-    width: 30vw;
-    height: 3vw;
-    padding: 5px;
-    margin: 10px;
-}*/
-
-/*
-.inputbus {
-    display: flex;
-    width: 33.3%;
-}*/
-
-/*
-.inputbus .busqueda{
-    width: 20vw;
-    height: 3vh;
-    
-    
-}*/
-
-
-/*
-.busqueda{
-    width: 50%;
-    width: 60%;
-    height: 60%;
-}*/
-
-
 /*--------------------------------------------------------------------------------*/
-
-/* ----------------- MAIN -----------------------------------------*/
+/* ----------------- MAIN -------------------------------------------------------*/
 main img {
     max-width: 100%;
     max-height: 100%;
@@ -162,137 +36,18 @@ main {
     background-color: #ebebeb;
 }
 
-/*main section 
-.articulo{
-    margin-bottom: 10px;
-}*/
+
 
 main section article{
     margin-bottom: 10px;
     
 }
-/*
-main section article i {
-    display: block;
-    font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
-    background-color: #FFF;
-    border-radius: 50%;
-    position: absolute;
-    right: 20px;
-    top: -15px;
-}*/
-/*
-.elemento_articulo{
-    border-top: solid 1px #ebebeb;
-    padding: 15px;
-    background-color: white;
-    width: 100%;
-    margin: auto;
-}*/
-
-/*#truck{
-    margin:auto;
-    padding: 20%;
-    background-color: transparent ;
-    color:green;
-}*/
-
-/*
-#truck{
-    margin:auto;
-    padding: 1%;
-    background-color: transparent ;
-    border-radius: 20px;
-    border: solid 1px green;
-    color:green;
-}
-
-#truck:hover{
-    margin:auto;
-    padding: 1%;
-    background-color: transparent ;
-    border-radius: 20px;
-    border: solid 1px green;
-    color:green;
-    transform: rotate(-90deg);
-    transition-property: transform ;
-    transition-duration: 0.40s;
-}*/
-/*
-.circulo{
-    height: 40px;
-    width: 40px;
-    background-color: transparent;
-    border-radius: 50px;
-    border: solid 1px green;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}*/
-/*
-.Precio{
-    flex-grow:30%;
-    width: 30%;
-}
-
-.Descuento{
-    flex-grow: 70%;
-    width: 70%;
-}*/
-
-
-
-.precio_descuento_order{
-    display:flex;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-
-
 
 
 /*--------------------------------------------------------------------------------*/
-
-/* ----------------- FOOTER -----------------------------------------*/
-footer{
-    text-align: center;
- 
-}
-
-#card {
-    color: #1259c3;
-    font-size:2em;
-    margin-bottom: 10px;
-}
-
-#gift{
-    color: #1259c3;
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-#security{
-    color: #1259c3;
-    font-size:2em;
-    margin-bottom: 10px;
-}
+/* ----------------- FOOTER -----------------------------------------------------*/
 
 /*--------------------------------------------------------------------------------*/
-
-
-
-
-
-
-
-/*--------------------------------------------------------------------------------*/
-
 /* ----------------- FORMULARIO REGISTRO -----------------------------------------*/
 .FORM_REGIS_USUARIO label{
     font-size: 1.5vw;  
@@ -400,7 +155,6 @@ button{
 
 
 /*--------------------------------------------------------------------------------*/
-
 /* ----------------- FORMULARIO LOGIN -----------------------------------------*/
 .FORM_LOGIN_USUARIO label{
     font-size: 2vw;  
@@ -434,37 +188,16 @@ button{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*--------------------------------------------------------------------------------*/
 /* ------------------------- MEDIAS QUERIES ------------------------------------*/
 @media (max-width:390px){
     
-    .Producto{
-        display: none;
-    }
-
     *{
         box-shadow: 0px 0px 10px rgb ( 100 , 100 , 100 );
     }
-
+/*--------------------------------------------------------------------------------*/
+/* ----------------- HEADER -------------------------------------------------------*/
+    
     .compracuota {
         display: flex;
         flex-wrap: wrap;
@@ -561,6 +294,9 @@ button{
         z-index: 10;
     }
 
+/*--------------------------------------------------------------------------------*/
+/* ----------------- MAIN -------------------------------------------------------*/
+
     .elemento_articulo{
         display: flex;
         flex-direction: column;
@@ -585,6 +321,10 @@ button{
         margin-top: 5px;
         margin-bottom: 5px;
 
+    }
+
+    .Producto{
+        display: none;
     }
     
 
@@ -631,6 +371,8 @@ button{
         align-items: center;
     }
 
+/*----------------------------------------------------------------------------------*/
+/* ----------------- FOOTER -------------------------------------------------------*/
     footer{
         display: flex;
         flex-direction: column;
@@ -640,6 +382,7 @@ button{
 
     footer section {
         margin:5px;
+        text-align: center;
     }
 
 
@@ -653,14 +396,20 @@ button{
 
     #card{
         font-size: 18px;
+        color: #1259c3;
+        margin-bottom: 10px;
     }
 
     #gift{
+        color: #1259c3;
+        margin-bottom: 10px;
         font-size: 18px;
     }
 
     #security{
         font-size: 18px;
+        color: #1259c3;
+        margin-bottom: 10px;
     }
 
 }
@@ -673,6 +422,8 @@ button{
         box-shadow: 0px 0px 10px rgb ( 100 , 100 , 100 );
     }
 
+/*--------------------------------------------------------------------------------*/
+/* ----------------- HEADER -------------------------------------------------------*/
     .burger-menu{
         display:none;
     }
@@ -690,28 +441,64 @@ button{
 
     .main-header .logo_barra{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
         flex-wrap: wrap;
     }
 
     .logoml{
         display: block;
-        width: 100%;
+        width: 32.2vw;
         text-align: center;
         margin:auto;
     }
 
     .logoml img{
-        width: 50%;
+        width: 100%;
+    }
+
+ 
+    
+    .busqueda_form{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .busqueda_form .busqueda{
+        width: 35vw;
+        height: 5vh;
+        border-color: transparent;
+        border-radius:  5px;
+    }
+    
+    
+    
+    .busqueda_form .butbusqueda{
+        width: 32vw;
+        margin:0px;
+        padding: 0px;
+        display: flex;
+        position: relative;
+    }
+    
+    .fas.fa-search{
+        background-color: transparent;
+        color: #666;
+        border: none;
+        position: relative;
+        top: 3.2vw;
+        top: 0.2vw;
+        right: 3.5vw;
     }
 
     .compracuota {
-        display: block;
         margin: 0px;
-       
+        width: 32.2vw;
     }
 
     .compracuota p {
+        font-size: 2vw;
         text-align: center;
         margin:5px;
     }
@@ -724,8 +511,8 @@ button{
     }
 
     .primer_li_opt a{
-        font-size: 10px;
-        margin: 0px;
+        font-size: 1.8vw;
+        margin-left: 5px;
         padding: 1px;
     }
      
@@ -737,9 +524,15 @@ button{
     }
     
     .segundo_li_opt a {
-        font-size: 10px;
-        margin: 0px;
+        font-size: 1.8vw;
+        margin-left: 5px;
         padding: 1px;
+    }
+
+    .segundo_li_opt i {
+        font-size: 1.8vw;
+        margin-left: 2px;
+        
     }
 
     .barranavegacion {
@@ -757,9 +550,21 @@ button{
     }
 
     .main-header .inputbus{
-        display: none;
+        display:flex;
+        width: 32vw;
+        margin:0px;
+        justify-content: center;
     }
 
+    .main-header .inputbus .butbusqueda .busqueda{
+       width: 25vw;
+       height: 5vh;
+       border-radius: 8px;
+       border-color: transparent;
+    }
+
+/*--------------------------------------------------------------------------------*/
+/* ----------------- MAIN -------------------------------------------------------*/
     main {
         margin: auto;
         position: relative;
@@ -852,7 +657,8 @@ button{
         justify-content: space-around;
         align-items: center;
     }
-
+/*--------------------------------------------------------------------------------*/
+/* ----------------- FOOTER -------------------------------------------------------*/
     footer{
         display: flex;
         flex-direction: column;
@@ -862,6 +668,7 @@ button{
 
     footer section {
         margin:5px;
+        text-align: center;
     }
 
 
@@ -875,14 +682,20 @@ button{
 
     #card{
         font-size: 18px;
+        color: #1259c3;
+        margin-bottom: 10px;
     }
 
     #gift{
         font-size: 18px;
+        color: #1259c3;
+        margin-bottom: 10px;
     }
 
     #security{
         font-size: 18px;
+        color: #1259c3;
+        margin-bottom: 10px;
     }
 
     
@@ -897,6 +710,8 @@ button{
         box-shadow: 0px 0px 10px rgb ( 100 , 100 , 100 );
     }
 
+/*----------------------------------------------------------------------------------*/
+/* ----------------- HEADER -------------------------------------------------------*/
     .burger-menu{
         display:none;
     }
@@ -928,9 +743,9 @@ button{
         background-color: transparent;
         color: #666;
         border: none;
-        position: absolute;
-        top: 1.6vw;
-        right: 37.5vw;
+        position: relative;
+        top: 0.2vw;
+        right: 2.5vw;
         font-size: 1.3vw;
     }
         
@@ -1003,7 +818,7 @@ button{
     }
 
     .primer_li_opt a{
-        font-size: 1.3vw;
+        font-size: 1.8vw;
         margin: 5px;
         padding: 5px;
     }
@@ -1017,13 +832,13 @@ button{
     }
     
     .segundo_li_opt a {
-        font-size: 1.3vw;
+        font-size: 1.8vw;
         margin: 5px;
         padding: 5px;
     }
 
     .segundo_li_opt i {
-        font-size: 1.3vw;
+        font-size: 1.8vw;
         margin-left:4px;
     }
 
@@ -1042,6 +857,12 @@ button{
         margin: 0px;
     }
     
+/*----------------------------------------------------------------------------------*/
+/* ----------------- MAIN -------------------------------------------------------*/
+    main section h1{
+        font-size: 2vw;
+        margin-bottom: 5px;
+    }
     .contenedor_de_ofertas{
         display: flex;
         flex-direction: row;
@@ -1095,6 +916,13 @@ button{
         position: relative;
     }
 
+    .elemento_articulo .precio_descuento_order{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        margin-top: 2px;
+    }
+
     #truck{
         margin:auto;
         padding: 2%;
@@ -1128,11 +956,17 @@ button{
         margin: auto;
     }
 
+/*----------------------------------------------------------------------------------*/
+/* ----------------- FOOTER -------------------------------------------------------*/
 
     footer{
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+
+    footer section {
+        text-align: center;
     }
 
     footer section p{
@@ -1145,14 +979,21 @@ button{
 
     #card{
         font-size: 2vw;
+        color: #1259c3;
+        margin-bottom: 10px;
+        text-align: center;
     }
 
     #gift{
         font-size: 2vw;
+        color: #1259c3;
+        margin-bottom: 10px;
     }
 
     #security{
         font-size: 2vw;
+        color: #1259c3;
+        margin-bottom: 10px;
     }    
 
     #card:hover{
