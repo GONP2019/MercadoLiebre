@@ -45,13 +45,12 @@ body h1 {
 
 
 /*--------------------------------------------------------------------------------*/
-
-/* ----------------- HEADER -----------------------------------------*/
+/* ----------------- HEADER -----------------------------------------------------*/
 header {
     background-color: #EAC926;
-    font-size: 12
 }
 
+/*
 .primer_li_opt a{
     padding: 5px;
 }
@@ -59,7 +58,7 @@ header {
 .segundo_li_opt  a {
     padding: 5px;
     
-}
+}*/
 /*
 .primer_li_opt {
    margin-left: 50px;
@@ -349,13 +348,16 @@ footer{
 
 /* ----------------- FORMULARIO REGISTRO -----------------------------------------*/
 .FORM_REGIS_USUARIO label{
-    font-size: 16px;  
+    font-size: 1.5vw;  
     font-style: oblique; 
 }
 
 .FORM_REGIS_USUARIO{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -363,7 +365,7 @@ footer{
     color: #ebebeb;
     margin: 50px;
     padding: 30px;
-    width: 20vw;
+    width: 40vw;
     border-radius: 8px ;
     border-style: dashed;
     background-color: #666;
@@ -375,9 +377,11 @@ footer{
 #camptext{
     border-radius: 4px;
     border-color: #ebebeb;
-    width: 10vw;
+    width: 15vw;
     
 }
+
+
 
 .fotperfil {
     display: flex;
@@ -387,7 +391,7 @@ footer{
 }
 
 .fotperfil i{
-    font-size: 50px;
+    font-size: 2vw;
     color: white;
 }
 
@@ -426,11 +430,12 @@ footer{
 }
 
 button{
-    width: 70px;
-    height: 30px;
+    width: 12vw;
+    height: 8vh;
     border-radius: 5px;
     border-color: #ebebeb;
     text-align: center;
+    font-size: 2vw;
 }
 
 .Enviar{
@@ -442,7 +447,7 @@ button{
 
 /* ----------------- FORMULARIO LOGIN -----------------------------------------*/
 .FORM_LOGIN_USUARIO label{
-    font-size: 16px;  
+    font-size: 2vw;  
     font-style: oblique; 
 }
 
@@ -456,12 +461,13 @@ button{
     color: #ebebeb;
     margin: 50px;
     padding: 30px;
-    width: 20vw;
+    width: 40vw;
     border-radius: 8px #EAC926;
     border-style: dashed;
     background-color: #666;
     text-align: center;
 }
+
 
 .EnviarLogin:hover{
     background-color: #0022AA;
@@ -972,46 +978,61 @@ button{
     .main-header {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        /*justify-content: center;*/
         margin:auto;
         width: 100%;
-        position: relative;
+        /*position: relative;*/
 
     }
 
 
     .main-header .logo_barra{
+        width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;     
     }
 
     .logoml{
-        display: block;
-        width: 32%;
-        text-align: center;
-        margin:auto;
+        width: 32vw;
+        margin:0px;
     }
 
-    .logoml img{
-        width: 50%;
-    }
 
     .main-header .inputbus{
         display:flex;
-        width: 32%;
+        width: 32vw;
+        margin:0px;
+        justify-content: center;
     }
 
+    .main-header .inputbus .butbusqueda .busqueda{
+       width: 25vw;
+       height: 5vh;
+    }
+
+    .main-header .inputbus .butbusqueda .busqueda{
+        width: 25vw;
+        height: 5vh;
+     }
+
     .compracuota {
-        display: block;
+        width: 32vw;
         margin: 0px;
-       
     }
 
     .compracuota p {
         text-align: center;
-        margin:5px;
+        font-size: 1.5vw;
+    }
+
+    .compracuota i {
+        text-align: center;
+        font-size: 1.5vw;
+        margin-right:4px;
+
     }
 
 
@@ -1024,7 +1045,7 @@ button{
     }
 
     .primer_li_opt a{
-        font-size: 16px;
+        font-size: 1.3vw;
         margin: 5px;
         padding: 5px;
     }
@@ -1038,9 +1059,14 @@ button{
     }
     
     .segundo_li_opt a {
-        font-size: 16px;
+        font-size: 1.3vw;
         margin: 5px;
         padding: 5px;
+    }
+
+    .segundo_li_opt i {
+        font-size: 1.3vw;
+        margin-left:4px;
     }
 
     .barranavegacion {
@@ -1053,7 +1079,8 @@ button{
     }
 
     .banner{
-        width: 100%;
+        width: 100vw;
+        height: 30vh;
         display: block;
         margin: 0px;
     }
@@ -1110,14 +1137,12 @@ button{
     
 
     .Precio{
-        /*flex-grow:30%;*/
         width: 50%;
         text-align: left;
         margin: auto;
     }
     
     .Descuento{
-        /*flex-grow: 70%;*/
         width: 50%;
         text-align: right;
         margin: auto;
@@ -1130,19 +1155,40 @@ button{
         align-items: center;
     }
 
+    footer section p{
+        font-size: 1.2vw;
+    }
+
+    footer section h1{
+        font-size: 1.5vw;
+    }
+
+    #card{
+        font-size: 2vw;
+    }
+
+    #gift{
+        font-size: 2vw;
+    }
+
+    #security{
+        font-size: 2vw;
+    }    
+
     #card:hover{
+        font-size: 2vw;
         color: #666;
     }
 
     #gift:hover{
+        font-size: 2vw;
         color: #666;
     }
 
     #security:hover{
+        font-size: 2vw;
         color: #666;
     }    
 
-    
-   
     
 }
